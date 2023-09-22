@@ -1,0 +1,40 @@
+[
+  {
+    "name" : "com.sun.media.jfxmediaimpl.NativeMediaPlayer",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true
+  }
+,
+  {
+    "name" : "com.sun.media.jfxmedia.locator.Locator",
+    "methods" : [
+      {"name":"getStringLocation","parameterTypes":[]},
+      {"name":"createConnectionHolder","parameterTypes":[]}
+    ]
+  }
+,
+  {
+    "name" : "com.sun.media.jfxmedia.locator.ConnectionHolder",
+    "methods" : [
+      {"name":"isSeekable","parameterTypes":[]},
+      {"name":"isRandomAccess","parameterTypes":[]},
+      {"name":"seek","parameterTypes":["long"]},
+      {"name":"closeConnection","parameterTypes":[]},
+      {"name":"property","parameterTypes":["int", "int"]},
+      {"name":"needBuffer","parameterTypes":[]},
+      {"name":"readBlock","parameterTypes":["long", "int"]},
+      {"name":"readNextBlock","parameterTypes":[]}
+    ],
+    "fields" : [
+      {"name":"buffer" }
+    ]
+  }
+,
+  {
+    "name" : "com.sun.media.jfxmedia.logging.Logger",
+    "methods" : [
+      {"name":"logMsg","parameterTypes":["int", "java.lang.String"]},
+      {"name":"logMsg","parameterTypes":["int", "java.lang.String", "java.lang.String", "java.lang.String"]}
+    ]
+  }
+]

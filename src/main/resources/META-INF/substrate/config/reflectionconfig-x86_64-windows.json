@@ -1,0 +1,6 @@
+[
+  {
+    "name":"com.sun.media.jfxmediaimpl.platform.gstreamer.GSTPlatform",
+    "methods":[{"name":"getPlatformInstance","parameterTypes":[] }]
+  }
+]
